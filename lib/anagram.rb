@@ -13,3 +13,10 @@ def match(words)
     end
   end
 end
+
+#use .split because anagrams are composed of the same letters. to see if they are composed of the same letters, you can split a word into an array of letters using .split.
+#to compare arrays (ie the word anagrams) use ==.
+#Ex: Binary and Brainy
+#word.split("Binary").sort == word.split("Brainy").sort
+#["b", "i", "n", "a", "r", "y"]  == ["b", "r", "a", "i", "n", "y"]
+#two arrays are equal if they contain the same elements.
