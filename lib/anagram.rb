@@ -7,7 +7,7 @@ def initialize(word)
 end
 
 def match(words)
-  words.select do |word| #iterate through each word in the array to find an anagram.
+  words.select do |word| #iterate through each word in the array to find an anagram that the anagram class is initalized with.
     word.split("").sort ==
     @word.split("").sort
     end
