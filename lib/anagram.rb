@@ -12,4 +12,4 @@ def match(word_array)
     @word.split("").sort
     end
   end
-end  
+end
