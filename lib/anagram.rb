@@ -20,3 +20,4 @@ end
 #word.split("Binary").sort == word.split("Brainy").sort
 #["b", "i", "n", "a", "r", "y"]  == ["b", "r", "a", "i", "n", "y"]
 #two arrays are equal if they contain the same elements.
+#.sort will sort the array elements to help the comparison. will sort the letters.
